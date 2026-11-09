@@ -1,0 +1,37 @@
+# ===== 密钥（绝对不要提交）=====
+data/api_keys.json
+.env
+.env.*
+*.key
+*.pem
+
+# ===== 虚拟环境与缓存 =====
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# ===== 可再生成的索引 / 向量数据 =====
+data/chroma/
+data/bm25*.pkl
+data/title_index.json
+data/kb_registry.json
+models/
+
+# ===== 日志与临时文件 =====
+*.log
+install*.log
+retriever.zip
+tools/*.log
+.trae/
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 规范文档（版权原因，不纳入版本库）=====
+docs/
